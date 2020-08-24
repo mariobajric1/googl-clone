@@ -1,6 +1,6 @@
 
 ## 
-<h2>cd googl-clone</h2>
-<h2>npm install</h2>
-<h2>npm start</h2>
+<h5>cd googl-clone</h5>
+<h5>npm install</h5>
+<h5>npm start</h5>
 
