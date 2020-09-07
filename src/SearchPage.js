@@ -10,7 +10,6 @@ import ImageIcon from "@material-ui/icons/Image";
 import LocalOfferIcon from "@material-ui/icons/LocalOffer";
 import RoomIcon from "@material-ui/icons/Room";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
-
 import Response from "./response";
 
 function SearchPage() {
@@ -33,6 +32,7 @@ function SearchPage() {
 					<img
 						className="searchPage__logo"
 						src="https://cdn.vox-cdn.com/thumbor/HqBAiwc9uD1sHBw2Uvac03pCXKE=/0x0:2012x1341/1400x1050/filters:focal(0x0:2012x1341):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"
+						alt=""
 					/>
 				</Link>
 				<div className="searchPage__headerBody">
