@@ -13,7 +13,7 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import Response from "./response";
 
 function SearchPage() {
-	const [{ term = "tesla" }, dispatch] = useStateValue();
+	const [{ term }, dispatch] = useStateValue();
 
 	// LIVE API CALL
 	const { data } = useGoogleSearch(term);
@@ -31,7 +31,7 @@ function SearchPage() {
 				<Link to="/">
 					<img
 						className="searchPage__logo"
-						src="https://cdn.vox-cdn.com/thumbor/HqBAiwc9uD1sHBw2Uvac03pCXKE=/0x0:2012x1341/1400x1050/filters:focal(0x0:2012x1341):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"
+						src="https://content.fortune.com/wp-content/uploads/2017/01/google.jpeg"
 						alt=""
 					/>
 				</Link>
@@ -77,7 +77,7 @@ function SearchPage() {
 				</div>
 			</div>
 
-			{true && (
+			{term && (
 				<div className="searchPage__results">
 					<p className="searchPage__resultCount">
 						About {data?.searchInformation.formattedTotalResults} results (
