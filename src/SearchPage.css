@@ -63,6 +63,7 @@
 	overflow: hidden;
 	transition: transform 100ms ease-in;
 	cursor: pointer;
+	z-index: 20;
 }
 .searchPage__result:hover {
 	color: white;
